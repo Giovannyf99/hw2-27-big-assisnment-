@@ -1,6 +1,13 @@
-body {
-    background-image: url(meow-thai.jpeg);
+header {
+text-align: center;
+text-size-adjust: 100px;
 }
+
+body {
+    background-image: url('meow-thai.jpeg') cover;
+    
+}
+
 .container {
     background-color: rgb(199, 207, 211);
     width: 500px;
@@ -9,3 +16,11 @@ body {
     border-radius: 5px;
     margin: auto;
 }
+ 
+.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
