@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{ 
+    width: 350px;
+    height: auto;
+    border: 15px black;
+}
+
+.microsoft-laptop{
+    flex-direction: column;
+    align-content: flex-end; 
+}
+
+img {
+    max-width: 100;
+    height: auto;
+}
+
+
+@media screen {
+    
+}
